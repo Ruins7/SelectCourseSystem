@@ -1,0 +1,247 @@
+body {
+	height: auto;
+	width: 1366px;
+	background-color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+#all #top {
+	background-color: #00949D;
+	margin: 0px;
+	clear: both;
+	height: 140px;
+	width: 900px;
+	padding-top: 30px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+}
+#all #top #logo {
+	margin: 0px;
+	float: left;
+	height: 100px;
+	width: 595px;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	font-size: 45px;
+	font-weight: bolder;
+	color: #CCC;
+	line-height: 95px;
+	font-family: "仿宋";
+	text-align: center;
+	word-spacing: 50px;
+	letter-spacing: 2px;
+	white-space: normal;
+}
+#all #top #query {
+	margin: 0px;
+	float: left;
+	height: 80px;
+	width: 230px;
+	font-size: 14px;
+	text-align: left;
+	padding-top: 60px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 40px;
+}
+#all #middle ul {
+	margin: 0px;
+	float: left;
+	height: 45px;
+	width: 600px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	list-style:none;
+}
+#all #middle ul li {
+	margin: 0px;
+	float: left;
+	height: 30px;
+	width: 100px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-size: 14px;
+	frnt-color: #0094AF;
+	font-weight: bold;
+}
+#all {
+	color: #FFF;
+	clear: both;
+	height: 800px;
+	width: 1000px;
+	background-color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#all #middle {
+	background-color: #BDDDC5;
+	margin: 0px;
+	clear: both;
+	height: 60px;
+	width: 900px;
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+}
+#all #middle #login {
+	margin: 0px;
+	float: left;
+	height: 60px;
+	width: 270px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	font-size: 12px;
+	text-align: left;
+	color: #0094AF;
+}
+.a {
+	color: #0094AF;
+}
+
+#all #content #contentlift #welcome {
+	color: #496BCD;
+	font-size: 14px;
+}
+
+#all #content {
+    background-color: #FFF;
+	margin: 0px;
+	clear: both;
+	height: auto;
+	width: 960px;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	border: 1px dotted #CCC;
+	color: #0094AF;
+	font-size: 16px;
+}
+#download{
+	text-align: right;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    height: 7px;
+	width: 720px;
+    font-size: 10px;
+    float: left;
+}
+#all #content #contentlift {
+	background-color: #FFF;
+	margin: 0px;
+	float: left;
+	height: auto;
+	width: 750px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 14px;
+}
+#all #content #contentright {
+	background-color: #FFF;
+	margin: 0px;
+	float: left;
+	height: 60px;
+	width: 180px;
+	padding-top: 400px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#all #bottom {
+	background-color: #DDFFDE;
+	margin: 0px;
+	clear: both;
+	height: 10px;
+	width: 400px;
+	padding-top: 15px;
+	padding-right: 300px;
+	padding-bottom: 15px;
+	padding-left: 300px;
+	font-size: 10px;
+	color: #666;
+}
+#all hr {
+	color: #CCC;
+	padding: 0px;
+	clear: both;
+	width: 600px;
+	border: 1px dotted #CCC;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+a:link {
+ text-decoration: none;
+  color: #0094AF;
+}
+a:visited {
+ text-decoration: none;
+ color: #0094AF;
+}
+a:hover {
+ text-decoration: none;
+ color:#FFF;
+ }
+ 
+.textarea{
+   resize: none;
+}
+
+#person{
+	margin-lift: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+	height: auto;
+	width: 100px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+  
+}
+
+#plan{
+	margin: 0px;
+	float: right;
+	height: auto;
+	width: 630px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+  
+}
+#table{
+    text-align: center;
+    border: 1px dotted #0094AF;
+}
+.td {
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+}

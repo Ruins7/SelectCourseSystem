@@ -1,0 +1,50 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- 更改struts2的界面显示主题 -->
+	<constant name="struts.ui.theme" value="simple"></constant>
+	<!--
+		以常量的方式添加自定义的属性文件 <constant name="struts.custom.i18n.resources"
+		value="resoursces"></constant>
+	-->
+	<constant name="struts.convention.result.path" value="/WebRoot/" />
+	<package name="struts2_selectCourse" extends="struts-default"
+		namespace="/">
+
+		<!-- 定义拦截器 -->
+		<interceptors>
+			<interceptor name="logininterceptor" class="com.interceptors.LoginInterceptor">
+			</interceptor>
+			<interceptor name="Adminlogininterceptor" class="com.interceptors.AdminLoginInterceptor">
+			</interceptor>
+			<interceptor name="SelectTimeInterceptor" class="com.interceptors.SelectTimeInterceptor">
+			</interceptor>
+			
+			<interceptor-stack name="LoginCheck">
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+				<interceptor-ref name="logininterceptor"></interceptor-ref>
+			</interceptor-stack>
+			
+			<interceptor-stack name="AdminLoginCheck">
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+				<interceptor-ref name="Adminlogininterceptor"></interceptor-ref>
+			</interceptor-stack>
+			
+			<interceptor-stack name="SelectTimeCheck">
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+				<interceptor-ref name="SelectTimeInterceptor"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+
+		<!-- 全局转发 -->
+		<global-results>
+			<result name="needToLogin">/student/stulogin.jsp</result>
+			<result name="AdminNeedToLogin">/admin/adminlogin.jsp</result>
+			<result name="NotTime">/student/error.jsp</result>
+			<result name="NotTime2" type="chain">findcoursebystu</result>
+		</global-results>
+
+	</package>
+</struts>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+	<field name="stu.studentID">
+		<field-validator type="requiredstring"><!-- 必填字符串 -->
+			<param name="trim">true</param><!-- 前后空格修剪 -->
+			<message>学号不能为空！</message>
+		</field-validator>
+        <field-validator type="stringlength">
+			<param name="minLength">10</param>
+			<param name="maxLength">10</param>
+			<message>学号长度必须是10位数字和字母组合！</message>
+		</field-validator>		
+		<field-validator type="regex">
+               <param name="expression"><![CDATA[([A-Za-z0-9]{10,10})]]></param>
+               <message>学号中不能出现除字母和数字以外的特殊字符！</message>
+        </field-validator>        
+    </field>
+    
+	<field name="stu.password">
+		<field-validator type="requiredstring"><!-- 必填字符串 -->
+			<param name="trim">true</param><!-- 前后空格修剪 -->
+			<message>密码不能为空！</message>
+		</field-validator>
+		<field-validator type="regex"><!-- 必填字符串 -->
+			<param name="expression"><![CDATA[(\w{6,16})]]></param>
+			<message>密码必须是6到16位的，且只能是数字或者字母！</message>
+		</field-validator>	  
+    </field>
+    
+    <field name="stu.studentName">
+		<field-validator type="requiredstring"><!-- 必填字符串 -->
+			<param name="trim">true</param><!-- 前后空格修剪 -->
+			<message>姓名不能为空！</message>
+		</field-validator>       
+    </field>
+    
+    <field name="stu.qq">
+		<field-validator type="requiredstring"><!-- 必填字符串 -->
+			<param name="trim">true</param><!-- 前后空格修剪 -->
+			<message>QQ号不能为空！</message>
+		</field-validator>
+        <field-validator type="stringlength">
+			<param name="minLength">6</param>
+			<param name="maxLength">11</param>
+			<message>QQ号码必须在6到11位之间！</message>
+		</field-validator>		       
+    </field>
+    
+    <field name="stu.stuTeleNum">
+		<field-validator type="requiredstring"><!-- 必填字符串 -->
+			<param name="trim">true</param><!-- 前后空格修剪 -->
+			<message>手机号不能为空！</message>
+		</field-validator>
+        <field-validator type="stringlength">
+			<param name="minLength">11</param>
+			<param name="maxLength">11</param>
+			<message>手机号码必须是11位的！</message>
+		</field-validator>		       
+    </field>
+    
+    <field name="stu.stuEmail">
+		<field-validator type="requiredstring">
+		<param name="trim">true</param><!-- 前后空格修剪 -->
+			<message>邮箱不能为空！</message>
+		</field-validator>
+		<field-validator type="email">
+			<message>请填写正确的邮箱！</message>
+		</field-validator>     
+    </field>
+    
+    <field name="stu.idCardNum">
+		<field-validator type="requiredstring">
+		<param name="trim">true</param><!-- 前后空格修剪 -->
+			<message>身份证号不能为空！</message>
+		</field-validator>
+		<field-validator type="stringlength">
+			<param name="minLength">18</param>
+			<param name="maxLength">18</param>
+			<message>身份证号码必须是18位的！</message>
+		</field-validator>
+		 
+    </field>
+	 
+	<field name="stu.birthday">  
+	     <field-validator type="required">
+	     <param name="trim">true</param><!-- 前后空格修剪 -->
+			<message>生日不能为空！格式必须符合：yyyy-MM-dd</message>
+		 </field-validator>	 
+		 <field-validator type="date">        
+               <param name="min">1980-01-01</param>
+               <param name="max">2010-01-01</param>
+                  <message>生日必须在1980-01-01到2010-01-01之间！</message>
+        </field-validator>				
+	</field>
+</validators>

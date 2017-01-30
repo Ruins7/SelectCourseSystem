@@ -1,0 +1,324 @@
+@charset "utf-8";
+body {
+	height: auto;
+	width: 1366px;
+	background-color: #FFF;
+	text-align: center;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}#all {
+	background-color: #FFF;
+	padding: 0px;
+	clear: both;
+	height: auto;
+	width: 1000px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+#all #top {
+	background-color: #8DC584;
+	margin: 0px;
+	float: left;
+	height: 75px;
+	width: 840px;
+	clear: both;
+	text-align: center;
+	padding-top: 45px;
+	padding-right: 80px;
+	padding-bottom: 20px;
+	padding-left: 80px;
+	font-size: 44px;
+	font-weight: bolder;
+	color: #515228;
+	font-family: "仿宋";
+}
+#all #content #contentright {
+	background-color: #FFF;
+	float: left;
+	height: 390px;
+	width: 160px;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #85AD32;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: 12px;
+	color: #85AD32;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+#all #content #contentlift {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: left;
+	height: auto;
+	width: 769px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#all #content #contentlift #download{
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: lift;
+	height: 7px;
+	width: 750px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	font-size: 10px;
+	text-align: right;
+}
+
+.b {
+	font-size: 14px;
+	color: #85AD32;
+}
+
+
+#all #content {
+	background-color: #FFF;
+	clear: both;
+	float: left;
+	height: auto;
+	width: 970px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-top-color: #CCC;
+	border-right-color: #85AD32;
+	border-bottom-color: #CCC;
+	border-left-color: #85AD32;
+	border-right-style: dotted;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	text-align: left;
+	font-size: 16px;
+	color: #85AD32;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.c {
+	background-color: #8DC584;
+	height: 50px;
+	width: 130px;
+	font-weight: normal;
+	color: #85AD32;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+#all #content #contentlift #aa {
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	float: left;
+	font-size: 36px;
+	color: #85AD32;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#all #content #contentlift #bb {
+	float: left;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	font-size: 36px;
+	color: #85AD32;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#all #content #contentlift #cc {
+	float: left;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	font-size: 36px;
+	color: #85AD32;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: center;
+}
+#all #content #contentlift #dd {
+	float: left;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	font-size: 36px;
+	color: #85AD32;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#all #content #contentlift #ee {
+	float: left;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+	margin-left: 10px;
+	font-size: 36px;
+	color: #85AD32;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#all #content #contentlift #gg {
+	float: left;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	font-size: 36px;
+	color: #85AD32;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#all #content #contentlift #hh {
+	float: left;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	font-size: 36px;
+	color: #85AD32;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#all #content #contentlift #ii {
+	float: left;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	font-size: 36px;
+	color: #85AD32;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#all #content #contentlift #jj {
+	float: left;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	font-size: 36px;
+	color: #85AD32;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#all #content #contentlift #ff {
+	float: left;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	color: #85AD32;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#all hr {
+	color: #85AD32;
+	height: 1px;
+	width: 700px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #85AD32;
+}
+
+#all #bottom {
+	background-color: #D0E6D6;
+	margin: 0px;
+	clear: both;
+	float: left;
+	height: 10px;
+	width: 1000px;
+	font-size: 10px;
+	color: #85AD32;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+}
+a:link {
+ text-decoration: none;
+  color:#515228;
+}
+a:visited {
+ text-decoration: none;
+ color:#515228;
+}
+a:hover {
+ text-decoration: underline;
+ color:#FFF;
+ }
+#all #content #contentlift #center {
+	font-size: 14px;
+	font-weight: normal;
+	color: #85AD32;
+	height: 200px;
+	width: 400px;
+	margin-top: 70px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 150px;
+	padding-top: 100px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 100px;
+}
